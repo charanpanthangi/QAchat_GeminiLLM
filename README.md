@@ -1,21 +1,24 @@
 
-Imagine an image model that doesn't just see, but also understands and talks! That's what you get with an image model using Gemini LLM. Here's a simplified breakdown:
 
-Gemini LLM: This is a powerful language model, similar to me, but trained on both text and images. It can understand the meaning of words and the content of pictures.
+A QA model using Gemini LLM is a powerful tool for asking questions and getting precise answers, utilizing the strengths of both large language models (LLMs) and advanced information retrieval methods. Here's a quick summary:
 
-Image Model: This part analyzes the visual information in an image, recognizing objects, scenes, and their relationships.
+Key Ingredients:
 
-Together: Think of them as a team. The image model "sees" the picture, then explains it to the LLM in "language" the LLM understands. The LLM then uses its vast knowledge and reasoning abilities to interpret and respond to your questions or requests about the image.
+Gemini LLM: This acts as the brain, leveraging its understanding of language and the world to process questions and generate meaningful responses.
+Information Retrieval System: This combs through vast amounts of data efficiently, finding relevant information based on the question and the LLM's insights.
+Workflow:
 
-What can it do?
+Ask a question: You pose your query in clear and concise language.
+LLM analysis: The LLM breaks down your question, identifying key concepts and search parameters.
+Information retrieval: The retrieval system scours through data sources, guided by the LLM's understanding, to find relevant answers.
+LLM synthesis: The LLM receives the retrieved information and crafts a comprehensive and informative response, ensuring it's consistent with the source and addresses your original question.
+Benefits:
 
-Answer questions about an image: "What animals are in this picture?"
-Generate descriptions of an image: "Write a poem inspired by this landscape."
-Compare and contrast images: "How are these two faces similar?"
-Extract information from images: "What data is represented in this chart?"
-Overall, an image model using Gemini LLM opens up exciting possibilities for understanding and interacting with visual information in new ways.
-
-
+Accurate answers: Leverages the power of both LLM understanding and efficient data retrieval for better accuracy.
+Variety of data sources: Can access and integrate information from various sources, providing a wider perspective.
+Natural language response: Generates answers in a human-like, easy-to-understand manner.
+Adaptability: Can be trained on specific domains or tasks for even more focused expertise.
+Overall, a QA model using Gemini LLM represents a sophisticated approach to question answering, promising precise and informative responses to your inquiries.
 ## Dependencies and Installation
 ----------------------------
 To install the MultiPDF Chat App, please follow these steps:
@@ -40,7 +43,7 @@ To use the MultiPDF Chat App, follow these steps:
 
 2. Run the 
    ```
-   streamlit run vision.py
+   streamlit run qachat.py
    ```
 
 3. The application will launch in your default web browser, displaying the user interface.
