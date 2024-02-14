@@ -21,7 +21,7 @@ Adaptability: Can be trained on specific domains or tasks for even more focused 
 Overall, a QA model using Gemini LLM represents a sophisticated approach to question answering, promising precise and informative responses to your inquiries.
 ## Dependencies and Installation
 ----------------------------
-To install the MultiPDF Chat App, please follow these steps:
+To install the QAchat_GeminiLLM  App, please follow these steps:
 
 1. Clone the repository to your local machine.
 
